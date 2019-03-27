@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Team UTokyo-Komaba</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="github-prettify-theme.css">
+  <script src="site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/ico" href="favicon.ico">
+
+</head>
+<body class="code-snippets-visible">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+	  <li class="navbar-item"><a class="square_btn" href="index.html">Top</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Background.html">Background</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Project.html">Project</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Design.html">Design</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Protocol.html">Protocol</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Result.html">Results</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Discussion.html">Discussion</a></li>
+          <li class="navbar-item"><a class="square_btn" href="Future.html">Future</a></li>
+	  <li class="navbar-item"><a class="square_btn" href="ELSI.html">ELSI</a></li>
+	<li class="navbar-item"><a class="square_btn" href="Team.html">Team</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- Background text                                                                                                              
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div id="Background" class="text">
+  <h2>Background</h2>
+  <p>Hydrogels form three-dimentional network structures by cross-linking hydrophilic polymers. Since DNA bonds sequence specifically by only bonding complemental bases, it is easy to design the construction of DNA as there are only four kinds of bases; adenine, thymine, guanine and cytosine. Consequently, DNA hydrogels ―hydrogels made of DNA, have attracted much attention recently as one of structural DNA nanotechnologies. DNA hydrogels can transit from gel to sol in response to photon<sup>[1]</sup>, temperature<sup>[2]</sup>, pH<sup>[3]</sup>, physical force etc. This means DNA hydrogels have high responsivity over a wide range of physical states. Therefore, we aimed to make a DNA hydrogel whose gel condition ―whether it remains gel or transitions into sol, differs according to the patterns of input DNA strands when inputting with certain sequences. In other words, we aimed to make a DNA hydrogel that works as a DNA AND gate. 
+  </p>
+	<div class="row">
+ 　 <img src="image/figure1.png"> 
+	</div>
+	<div class="row">
+    <img src="image/figure7.png"> 
+　      </div>
+<br>Reference
+  <p>[1] Kandatsu, D., et al. “Reversible Gel-Sol Transition of a Photo-Responsive DNA Gel.” ChemBioChem 17.12(2016): 1118-1121.
+  </p>
+  <p>[2] Liu, W., et al.” A rapid temperature-responsive sol–gel reversible poly(N-isopropylacrylamide)-g-methylcellulose copolymer hydrogel” Biomaterials 25(2004):3005-3012.
+  </p>
+  <p>[3] Cheng, E., et al. “A pH-triggered, fast-responding DNA hydrogel” Angewandte Chemie – International Edition 48.41(2009): 7660-7663.
+  </p>
+<!-- Add fig.  <div class="row">
+    <img src="">
+    </div>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+
+<!-- End Document
+  ?????????????????????????????????????????????????? -->
+</body>
+</html>
