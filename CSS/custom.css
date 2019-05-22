@@ -16,15 +16,15 @@ ul {
     font-size: 1.0em;
     padding: 0.5em 1em;
     text-decoration: none;
-    border-bottom: solid 4px #FF000F;
-    color: #3D0085;
-    background: #FFD2CC;
+    border-bottom: solid 4px #187FC4;
+    color: #187FC4;
+    background: #FABE00;
     transition: .4s;
 }
 
 
 .square_btn:hover {
-    background: #FF000F;
+    background: #187FC4;
     color: #040404;
 }
 
@@ -103,14 +103,14 @@ select.tinynav option[selected] {
     padding: 0.5em 1em;
     font-size: 1.0em;
     text-decoration: none;
-    border-bottom:solid 4px #ff000f;
+    border-bottom:solid 4px #187FC4;
     color: #040404;
-    background: #ff000f;
+    background: #187FC4;
     transition: .4s;
 }
 
 .square_btn3:hover {
-    background: #FF000F;
+    background: #187FC4;
     color: #040404;
 }
 
