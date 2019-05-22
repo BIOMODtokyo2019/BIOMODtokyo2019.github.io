@@ -13,7 +13,7 @@ ul {
     position: relative;
     display: inline-block;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.0em;
     padding: 0.5em 1em;
     text-decoration: none;
     border-bottom: solid 4px #FF000F;
@@ -50,7 +50,7 @@ ul {
     position: relative;
     display: inline-block;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.0em;
     padding: 0.5em 1.2em;
     text-decoration: none;
     border-bottom: solid 4.5px #000000;
@@ -101,7 +101,7 @@ select.tinynav option[selected] {
     display: inline-block;
     font-weight: bold;
     padding: 0.5em 1em;
-    font-size: 1.2em;
+    font-size: 1.0em;
     text-decoration: none;
     border-bottom:solid 4px #ff000f;
     color: #040404;
