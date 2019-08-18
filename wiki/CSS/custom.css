@@ -10,7 +10,7 @@ ul {
 /* Link Button (大項目)*/
 
 .square_btn{
-    position: relative;
+    position: left;
     display: inline-block;
     font-weight: bold;
     font-size: 1.0em;
