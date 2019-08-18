@@ -427,3 +427,14 @@ td,
 th {
   padding: 0;
 }
+
+container aside {
+    padding: 0px; 
+    margin: 0px; 
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 13.5%;
+    background-color: #2b2825;
+}
