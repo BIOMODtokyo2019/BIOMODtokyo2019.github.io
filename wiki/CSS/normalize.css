@@ -437,4 +437,5 @@ div#sidebar {
     height: 100%;
     width: 13.5%;
     background-color: #2b2825;
+    float: left;
 }
