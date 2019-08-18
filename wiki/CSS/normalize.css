@@ -428,7 +428,7 @@ th {
   padding: 0;
 }
 
-container aside {
+div#sidebar {
     padding: 0px; 
     margin: 0px; 
     z-index: 0;
