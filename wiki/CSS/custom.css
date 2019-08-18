@@ -11,7 +11,7 @@ ul {
 
 .square_btn{
     position: left;
-    display: inline-block;
+    /*display: inline-block;*/
     font-weight: bold;
     font-size: 1.0em;
     padding: 0.5em 1em;
