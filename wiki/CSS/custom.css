@@ -3,7 +3,7 @@
 /* Erase the circle before the list */
 ul {
   list-style:none;
-  display: flex;
+  /*display: flex;*/
   flex-direction:row;
   flex-wrap:wrap;
 }
