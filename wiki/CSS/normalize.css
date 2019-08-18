@@ -24,6 +24,7 @@ header{
   border-top-width: 3px;
   border-top-color: #000000;
   overflow: hidden;
+  position: fixed;
 }
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
@@ -428,7 +429,7 @@ th {
   padding: 0;
 }
 
-div#sidebar {
+sidebar {
     padding: 0px; 
     margin: 0px; 
     z-index: 0;
