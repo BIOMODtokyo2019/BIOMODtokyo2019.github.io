@@ -25,6 +25,7 @@ header{
   border-top-color: #000000;
   overflow: hidden;
   position: fixed;
+  z-index: 9999;
 }
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
