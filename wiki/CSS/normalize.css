@@ -16,6 +16,7 @@ body,
 header,
 footer {
   margin: 0;
+  clear:both;
 }
 
 /* HTML5 display definitions */
