@@ -193,3 +193,8 @@ table, th, td {
 caption{
  white-space: nowrap;
 }
+
+#abstract{
+  float:right;
+  mergin-left:20%;
+}
