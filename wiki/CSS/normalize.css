@@ -24,7 +24,7 @@ header{
   border-top-width: 3px;
   border-top-color: #000000;
   overflow: hidden;
-  position: fixed;
+  /*position: fixed;*/
   z-index: 9999;
 }
 /**
