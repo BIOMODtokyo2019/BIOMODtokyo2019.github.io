@@ -1,5 +1,9 @@
 @charset "utf-8n";
 
+div.sidebar {
+  background-color: #040404;
+  width: 20%;
+}
 /* Erase the circle before the list */
 ul {
   list-style:none;
