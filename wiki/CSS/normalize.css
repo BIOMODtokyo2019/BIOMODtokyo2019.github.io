@@ -441,3 +441,19 @@ sidebar {
     background-color: #2b2825;
     float: left;
 }
+
+html,
+body,
+div.background {
+  height: 100%;
+}
+ 
+div.background {
+  min-height: 100%; 
+  width: 300px;
+  background: #EFEFEF;
+}
+ 
+body > div.background {
+  height: auto; 
+}
