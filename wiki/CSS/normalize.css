@@ -20,13 +20,17 @@ footer {
 }
 
 /* HTML5 display definitions */
-
+footer{
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+}
 header{
   border-top-width: 3px;
   border-top-color: #000000;
   overflow: hidden;
   width: 100%;
-  /*position: fixed;*/
+  position: fixed;
   z-index: 9999;
 }
 /**
