@@ -22,7 +22,7 @@ footer {
 /* HTML5 display definitions */
 footer{
   z-index: 0;
-  position: ;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
