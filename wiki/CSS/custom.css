@@ -3,6 +3,7 @@
 div.sidebar {
   background-color: #040404;
   width: 20%;
+  height: 100%;
 }
 /* Erase the circle before the list */
 ul {
@@ -24,6 +25,7 @@ ul {
     color: #187FC4;
     background: #040404;
     transition: .4s;
+    max-width: 20%;
 }
 
 
@@ -61,6 +63,7 @@ ul {
     color: #000000;
     background: #CCCCCC;
     transition: .4s;
+    max-width: 20%;
 }
 
 
@@ -111,6 +114,7 @@ select.tinynav option[selected] {
     color: #040404;
     background: #187FC4;
     transition: .4s;
+    max-width: 20%;
 }
 
 .square_btn3:hover {
