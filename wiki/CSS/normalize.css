@@ -24,6 +24,7 @@ footer{
   z-index: 0;
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 header{
   border-top-width: 3px;
