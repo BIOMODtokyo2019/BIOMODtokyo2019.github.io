@@ -4,6 +4,7 @@ div.sidebar {
   background-color: #040404;
   width: 20%;
   height: 100%;
+  position: fixed;
 }
 /* Erase the circle before the list */
 ul {
