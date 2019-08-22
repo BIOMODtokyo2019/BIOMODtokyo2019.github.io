@@ -19,7 +19,11 @@ ul {
     position: left;
     display: inline-block;
     font-weight: bold;
-    font-size: 1.0em;
+    /*font-size: 1.0em;*/
+    font-size: 1vw;
+   font-size: 1vh;
+    font-size: 1vmin;
+    /*font-size: 1.0em;*/
     padding: 0.5em 1em;
     text-decoration: none;
     border-bottom: solid 4px #187FC4;
