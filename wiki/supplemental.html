@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="UTF-8N"><!---
+--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--
+--><title>Nano-Swarm Robot</title>
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"　type="text/css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/skeleton.css">
+  <link rel="stylesheet" href="CSS/custom.css">
+  <!-- Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="github-prettify-theme.css">
+  <script src="site.js"></script><!--
+--><script>$(function () {
+      $('a[href^="#"]').click(function () {
+        var speed = 800;
+        var href = $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var nw = $(window).width();
+        var kw = 600;
+        if (nw > kw) {
+          var headerHeight = 180;
+        } else {
+          var headerHeight = 120;
+        }
+        var position = target.offset().top - headerHeight; //headerズレ補正
+        $('body,html').animate({ scrollTop: position }, speed, 'swing');
+        return false;
+      });
+    });</script>
+</head>
+	
+<body class="code-snippets-visible"><!--ヘッダー
+--><header style="background-color:#040404; margin-left:17%; width:83%;"><center>
+    <div class="navbar-spacer"></div>
+     <div class="row">
+ 　 <img src="image/nano-swarm robot.jpg">
+</div></center>
+</header>
+<!--サイドバー-->
+　　<div class="container" style="background-color:black; height:100vh; margin-top:0; margin-left:0; z-index:0; float:left; width:20%; top:0; position:fixed;"></div>
+     <div class="sidebar" style="float:left;">
+      <nav class="navbar">
+        <ul class="navbar-item">
+	 <li class="navbar-item"><a class="square_btn" href="index.html">Home</a></li>
+	  <li class="navbar-item"><a class="square_btn" href="intro.html">Introduction</a></li>
+          <li class="navbar-item"><a class="square_btn" href="design.html">Design</a></li>	
+	  <li class="navbar-item"><a class="square_btn3" href="experiment.html">Experiments</a></li>
+    <li class="navbar-item"><a class="square_btn2" href="experiment.html">Main</a></li>
+    <li class="navbar-item"><a class="square_btn3" href="supplemental.html">Supplemental</a></li>
+<li class="navbar-item"><a class="square_btn" href="discussion.html">Discussion</a></li>
+	    <li class="navbar-item"><a class="square_btn" href="future.html">Future</a></li>
+	  <li class="navbar-item"><a class="square_btn" href="elsi.html">ELSI</a></li>
+	  <li class="navbar-item"><a class="square_btn" href="team.html">Team</a></li></ul>
+   </div>
+<!--Main:Abstract-->
+　　<script type="text/javascript">
+    $(function () {
+      $("#navigation").tinyNav();
+    });
+  </script>
+   <div class="container" style="margin-left:25%;">
+    <div class="docs-section" id="Preparation of Nanobot (DNA attached beads)" style="padding-top:4px; padding-bottom:2em;">
+       <h5 class="docs-header">
+        <b>Preparation of Nanobot (DNA attached beads)</b>
+      </h5>
+      <p>1. We took 20 &micro;L of streptavidin beads from stock into a 500 &micro;L tube.<br>2. After vortex of the tube, we centrifuged supernatant and re-suspended in BW buffer (Washing buffer) 100 &micro;L.<br>3. Washed three times with 100 &micro;L of BW buffer (Centrifuge and re-suspension).<br>4. In order to anneal strands, we put pairs of linker DNAs written as below on 95&deg;C for 10 minutes in other tubes, then cooled at room temperature for 10 minutes.<br>-mix1: D1 unit1 biot 100 &micro;M 3 &micro;L + D1 unit2 100 &micro;M 3 &micro;L<br>-mix2: D2 unit1 biot 100 &micro;M 3 &micro;L + D2 unit2 100 &micro;M 3 &micro;L<br>5. We mixed beads solution and strands solution as following.<br>-D1: 24 &micro;L  of TE buffer + 6 &micro;L of mix1<br>-D2: 24 &micro;L of TE buffer + 6 &micro;L of mix2<br>6. Washed D1 and D2 as following:<br>-100 &micro;L of BW buffer two times.<br>-100 &micro;L of SB buffer two times.<br>Finally we suspended D1 and D2 in SB buffer.</p>		     
+  </div>
+	   <div class="docs-section" id="Materials" style="padding-top:4px; padding-bottom:2em;">
+       <h5 class="docs-header">
+        <b>Materials</b>
+      </h5>
+      <p>Streptavidin Coated Microspheres (BAN Bangs Labratories, Inc.  Catalog number: CP1004)<br>Evagreen&reg;, 20X in water, Unlabeled (BTI, Catalog numbe: 31000)<br>NB.BsmI (BioLabs, Catalog number: R0706)<br>Bst 2.0 WarmStart DNA Polymerase (BioLabs, Catalog number: M0538)<br>Nt.BstNBI (BioLabs, Catalog number: R0607)<br>RecJtt (Homemade-引用文献)<br>DNA strands (Integrated DNA Technologies, US)この後に配列を乗っける</p>		     
+  </div>
+	    <div class="docs-section" id="Stations" style="padding-top:4px; padding-bottom:2em;">
+       <h5 class="docs-header">
+        <b>Stations</b>
+      </h5>
+      <p>CFX96 (BIO-RAD, Catalog number: 1855196J1)<br>Nikon Eclipse Ti2 (Nikon)</p>		     
+  </div>
+  </div>
+	      <!-- Top of Page:Button -->
+  <div id="page_top">
+    <a href="#">Page Top</a>
+  </div>
+    </div> 
+<!--フッター-->
+ <footer style="background-color:#EDF7FF;">
+	<center> &copy;BIOMOD 2019 Team Tokyo (Mail: biomodtokyo2019&#64;gmail.com)</center>
+ </footer>
+</body>
+</html>
