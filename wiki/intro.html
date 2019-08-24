@@ -31,7 +31,7 @@
         } else {
           var headerHeight = 120;
         }
-        var position = target.offset().top - headerHeight; //headerズレ補正
+        var position = target.offset().top; //headerズレ補正
         $('body,html').animate({ scrollTop: position }, speed, 'swing');
         return false;
       });
