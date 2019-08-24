@@ -198,7 +198,7 @@ border-bottom: solid 4.5px #cccccc;
 /* table style */
 table, th, td {
  text-align: center;
- margin-left: auto;
+ /*margin-left: auto;*/
  margin-right: auto;
 }
 
