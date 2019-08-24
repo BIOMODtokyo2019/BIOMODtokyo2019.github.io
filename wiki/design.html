@@ -71,25 +71,46 @@
         <b>Concept</b>
       </h4>
       <p>Our concept is to make nano-size swarm robots which gather together if there are target strands, and we can confirm the existence of specific array.</p>
-      <h4 class="docs-header">
+      <div class="row">
+ 　 <img src="image/top1.png"></img>
+</div>
+	   <p>Fig.1 Concept of Nano-robot</p>
+	    <h4 class="docs-header">
         <b>DNA robots</b>
 	</h4>
 	<p>We prepared beads, as the body of the robots, which are attached with DNA strands like the shape of sea urchins. The beads are covered with streptavidin, a kind of protein which causes strong cohesion to biotin, one of vitamins. We designed two heterogeneous beads, D1 and D2 that composed of streptavidin beads, unit1 strand and unit2 strand. For beads D1, biotin is jointed to 5’ end of DNA strand (D1 unit1). On the other hand, for D2, biotin is jointed to 3’ end of DNA strand (D2 unit1) and each biotin makes cohesion with streptavidin on the surface of beads.  D1 unit2 and D2 unit2 have complementary sequences of each unit1 and linker DNA.<br>
-	    DNA strands of one bead are bind to other DNA strands of another bead by linker DNA strands. <br>As the direction of DNA strands from beads (5’→3’ or 3’→5’) is opposite to each other, one linker DNA strands can connect D1 strands and D2 strands. Thus, like a bridge connects two lands, linker DNA strands gather the beads making double-stranded DNA where fluorescent substance binds, and observing strength of the fluorescence, which means how mush beads gather together, we can estimate the amount of linker DNA strands.</p>		     
-  <h4 class="docs-header">
+	    <div class="row">
+ 　 <img src="image/D1D2.png"></img>
+</div>
+	   <p>Fig.2 Design of DNA nano-robot</p><p>DNA strands of one bead are bind to other DNA strands of another bead by linker DNA strands. <br>As the direction of DNA strands from beads (5’→3’ or 3’→5’) is opposite to each other, one linker DNA strands can connect D1 strands and D2 strands. Thus, like a bridge connects two lands, linker DNA strands gather the beads making double-stranded DNA where fluorescent substance binds, and observing strength of the fluorescence, which means how mush beads gather together, we can estimate the amount of linker DNA strands.</p>		     
+	     <h4 class="docs-header">
         <b>PEN DNA toolbox</b>
 	</h4>
 	<p>To implement the computational function into Nanorobot, we utilize PEN DNA toolbox. PEN DNA toolbox is the set of chemical reaction composed of three enzymatic activities; polymerase extension, nickase nicking and exonuclease degradation (Figure). In previous reports, PEN DNA toolbox have achieved to show interesting kinetics, such as predator-prey oscillation and bifurcation switch[1][2].<br>
+		 <div class="row">
+ 　 <img src="image/スライド3.png"></img>
+</div>
+	   <p>Fig.3 Basic chemical scheme of PEN DNA toolbox</p>
 	    As one of representative module of kinetics, conversion reaction, which is the chemical reaction flow that produces output strands when the input strand presents. To assemble this reaction, we prepare polymerase, nickase, input strand and template which is complementally to input strand and output strand. When the input strand hybridizes the template, input is elongated from 3' and output DNA part is synthesized. After polymerization, nickase recognized specific sequences between the input strand and output strand, after that it cuts and divide into input and output. Finally output strand is separated from template and new output is synthesized one after another. <br>
 When the input and output are the same sequences, this reaction is called autocatalytic amplification. It highly accelerates the increase of signal because the input amplification in this case is exponential. This autocatalytic amplification largely helps to detect low concentration molecules.<br>
-</p>		     
+<div class="row">
+ 　 <img src="image/design2.png"></img>
+</div>
+	   <p>Fig.4 Module of conversion and autocatalytic amplification</p></p>		     
   <h4 class="docs-header">
         <b>Nano robot system</b>
 	</h4>
 	<p>First, as shown in (fig.n), we designed normal linker. We combined beads D1, D2, strands α, single linker strands, sequences  complementary to strands α and linker, and PEN. A complementary strands consists from two kind of strands, that is, from 3’end to 5’ end, complement to α, and then complement to linker.<br>
 Thanks to PEN, we can conduct amplification of strands in room temperature and also dissemble the stands. Strand α connect to the complementary strands as primer, and a new strand, whose array is same to that of single linker, is synthesized. Then nickase separates the new array same to α from the strand α, the strand α remains to the complementary strand and the new single linker leaves.<br>
+<div class="row">
+ 　 <img src="image/スライド5.png"></img>
+</div>
+	   <p>Fig.5 PEN and nano-beads aggregation</p><br>
 Regarding to the AND gate linker, as shown in (fig.n), there are two kinds of linker, one kind of linker has complementary array to one beads(D1 in figure) in one of its edge, and the other side of edge is complementary to the other kind of linker’s one edge, whose array’s the other side is complementary to the other beads(D2)’s strand.  The two kinds of linker strands are amplified from complementary strands in same way to the single linker, and two linker make cohesion in character T-shape, and both of the horizontal edge of capital T make cohesions to two kinds of beads. Thus, only in the case of both two kinds of linker exists, beads gather together and strength of fluorescence grows according to the amount of double stranded DNA.</p>		     
-  <br><b>Reference</b><br>[1] Teruo Fujii and Yannick Rondelez, "Predator–Prey Molecular Ecosystems" ACS nano 2013 <br>
+  <div class="row">
+ 　 <img src="image/スライド6.png"></img>
+</div>
+	   <p>Fig.6 Design of logic gate aggregation(AND gate)</p><br><br><b>Reference</b><br>[1] Teruo Fujii and Yannick Rondelez, "Predator–Prey Molecular Ecosystems" ACS nano 2013 <br>
 [2] Kevin Montagne, Guillaume Gines, Teruo Fujii & Yannick Rondelez
 "Boosting functionality of synthetic DNA circuits with tailored deactivation" Nature communication, 2016 <br>
 </div>
