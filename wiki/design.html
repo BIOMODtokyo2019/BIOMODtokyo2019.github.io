@@ -107,7 +107,17 @@ Thanks to PEN, we can conduct amplification of strands in room temperature and a
  　 <img src="image/design3.png"></img>
 </div>
 	   <p>Fig.5 PEN and nano-beads aggregation</p><br>
-</p><br><br><b>Reference</b><br>[1] Teruo Fujii and Yannick Rondelez, "Predator–Prey Molecular Ecosystems" ACS nano 2013 <br>
+</p>
+ <h4 class="docs-header">
+        <b>Creating threshold by PEN DNA toolbox and drain</b>
+	</h4>
+<p>we combined two mechanisms, exonuclease and drain (a kind of inhibitor), to degrade the amplified linker DNA and prevent aggregation when the signal is below a certain value, <br>
+Exonucleases, which is included in the PEN DNA toolbox, degrade the synthesized linker DNA. The degradation rate increases in proportion to the reciprocal of concentration until all exonucleases bind to the substrate and then becomes constant (c.f. Michaelis-Menten graph). In other words, the graph of the degree of inhibition of exonuclease (y) and the increase in linker (x) is convex when the concentration of α strand is below a certain value (the concentration of α strand at which the synthesized linker binds exonuclease one-on-one), and above the value it stays constant.<br>
+On the other hand, the drain inhibits the synthesis of linker from α by competitively binding to α (competitive inhibition). Therefore, the graph of the drain inhibition degree (y) and the concentration of α (x) increases as more α is present until all drains bind to α (the drain concentration is constant in this experiment).<br>
+When these two types of inhibitors are combined, the graph of the degree of inhibition (y) with respect to the concentration of α (x) has a greater slope than a straight line until α reaches a certain value (threshold value) C, and when α reaches C, a straight line can be drawn from there. <br>
+The value of this switch, C, is adjusted by the two kinds of inhibitors and the concentration of α. For a linear increase of α, in a signal below C, it is adjusted to make the linker increase lower than the inhibition degree (blue part in the image), and in a signal above C (the red part in the image), it is adjusted to make the linker increase higher than the inhibition degree. This makes it possible to realize a system in which linker DNA increases rapidly only when the signal is higher than C.
+</p>
+<br><br><b>Reference</b><br>[1] Teruo Fujii and Yannick Rondelez, "Predator–Prey Molecular Ecosystems" ACS nano 2013 <br>
 [2] Kevin Montagne, Guillaume Gines, Teruo Fujii & Yannick Rondelez
 "Boosting functionality of synthetic DNA circuits with tailored deactivation" Nature communication, 2016 <br>
 </div>
